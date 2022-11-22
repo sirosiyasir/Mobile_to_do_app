@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!--  Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/ff84dc085c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="calculator">
+        <p>9 : 41</p>
+        <span>
+          <i class="fa-solid fa-signal"></i>
+          <i class="fa-solid fa-wifi"></i>
+          <i class="fa-solid fa-battery-full"></i>
+        </span>
+        <div class="container todo">
+          <h1>TO DO LIST</h1>
+          <input type="text" maxlength="24" />
+          <button id="sendButton" type="button">Send</button>
+          <button id="clearButton">Clear</button>
+          <form action="">
+            <!-- <ul><li></li></ul> -->
+          </form>
+        </div>
+
+        <!-- Swipe Up completed -->
+        <div id="swipe" onClick="swipeUp()"></div>
+        <div id="swipe-completed">
+          <h3>Thanks for using my to do app❤</h3>
+          <a href="https://github.com/sirosiyasir" class="github"
+            ><i class="fa-brands fa-github"></i> GitHub</a
+          >
+          <a href="https://twitter.com/sirosiyasir" class="twitter"
+            ><i class="fa-brands fa-twitter"></i> Twitter</a
+          >
+          <a
+            href="https://www.linkedin.com/in/yasir-%C3%A7e%C5%9Fmeci-7104b9250/"
+            class="linkedin"
+            ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+          >
+          <h6>Yasir Çeşmeci</h6>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
